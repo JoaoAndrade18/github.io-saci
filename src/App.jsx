@@ -8,7 +8,7 @@ import './App.css'
 
 function App() {
   return (
-    <BrowserRouter basename="/github.io-saci">
+    <BrowserRouter basename="/saci">
       <Routes>
         <Route path="/" element={< Home />} />
         <Route path="/frame/label" element={< LabelFrame />} />
